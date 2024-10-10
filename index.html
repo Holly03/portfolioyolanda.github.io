@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolanda G. | Desarrolladora Web</title>
+    <link rel="icon" href="./assets/images/logo.JPG" type="image/x-icon">
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iE2pILPb099WRG3ZeFL3U0n0NTrcklK976fropz54kBLVdel9s_qOky73Uq1e2PIFQi8uCcSJ_Y5W6Wr2d6HLQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYXJpYW5hLWFtLXBvcnRhZm9saW8ubmV0bGlmeS5hcHAv"/><script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <a class="navbar-brand" href=""><h2 class="m-0 nombre">Yolanda Gijón</h2></a>
+        
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+        </nav>
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/imagen-programadora.JPG" alt="Ilustración mujer ordenador">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+
+                    <span class="home_text-1">¡Hola!</span>
+                    <h3 class="home_text-2 ">Soy Yolanda, Desarrolladora Web.</h3>
+                </div>
+
+                <div class="container_button">
+                    <a href="./assets/cv_yolanda_gijon.pdf" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Currículum</button>
+                    </a>
+                    <a href="mailto:yolanda.gfedez@gmail.com">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/yolanda-gij%C3%B3n-fern%C3%A1ndez-a09b69191/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/Holly03" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Yolanda Gijón</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi"> Soy <strong>Desarrolladora Web y Científica Ambiental.</strong><br><br>
+                        Estudié el <strong>Grado en Ciencias Ambientales </strong> y me especialicé en <strong>Ciencia y Tecnología del Medio Ambiente,</strong> donde cursé varias asignaturas relaciondas con la <strong>programación</strong>. Fue entonces cuándo descubrí cuánto me gustaba programar.
+                        A partir de entonces, comencé a estudiar el CFGS de <strong>"Desarrollo de Aplicaciones Web".</strong> Y mientras, estoy trabajando como jueza de atletismo (árbitro) a nivel nacional.<br>
+                        Actualmente, tras finalizar el CFGS, estoy realizando varios cursos para mejorar mis conocimientos en <strong>Python y C#, así como, estudiando para obtener el First Certificate in English (FCE, B2).</strong><br><br>
+                        A nivel personal, me encantan de las actividades al aire libre y el atletismo.<br>
+                        Me considero una persona con una gran <strong>capacidad de aprendizaje y adaptación</strong>, y siempre estoy dispuesta a aprender nuevas habilidades y conocimientos. Me gusta <strong>trabajar en equipo</strong> y colaborar con otros profesionales para alcanzar objetivos comunes. Además, soy una persona <strong>responsable, comprometida con mi trabajo y proactiva.</strong><br><br>
+                        En definitiva, teniendo en cuenta todo lo explicado, me gustaría obtener una <strong>oportunidad para trabajar en una empresa del sector de desarrollo web o informática</strong>, en general.
+                    </span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/imagen-chica.avif" alt="Ilustración chica y plantas">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-office.png" alt="Office">
+                    <p>Office</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-matlab.png" alt="MatLab">
+                    <p>MatLab</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-r.png" alt="RStudio">
+                    <p>RStudio</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-mysql.png" alt="MySQL">
+                    <p>MySQL</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-java.png" alt="Java">
+                    <p>Java</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-php.png" alt="PHP">
+                    <p>PHP</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-spring.png" alt="SpringBoot">
+                    <p>SpringBoot</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-angular.png" alt="Angular">
+                    <p>Angular</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-net.png" alt=".NET">
+                    <p>.NET</p>
+                </div>
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-oracle.png" alt="Oracle">
+                    <p>Oracle</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-qgis.png" alt="QGIS">
+                    <p>QGIS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-arcgis.png" alt="ArcGIS">
+                    <p>ArcGIS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-python.png" alt="Python">
+                    <p>Python</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_gestioneventos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/img-events.JPG" alt="Proyecto: Gestión Eventos">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">Gestión Eventos</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">Aplicación para gestionar la
+                            organización de los eventos, diferenciando entre perfil de administrador y de usuarios.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/Holly03" target="_blank">
+                            <button class="btn_repo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                    class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portfolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/img-yolanda.JPG" alt="Proyecto: Portfolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portfolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Portfolio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Mi portafolio web personal, donde se
+                            encuentran algunos de mis proyectos más destacados y mis habilidades técnicas.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+
+
+                        <a href="https://github.com/Holly03" target="_blank">
+                            <button class="btn_repo">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                    class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/img-escaneo.JPG" alt="Proyecto: Digitalización de Formularios">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Digitalización de Formularios</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Permite obtener los datos de un
+                            formulario escaneado a papel, procesarlos mostrándolos en una plantilla correspondiente
+                            para, posteriormente, introducirlos en la base de datos.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="contianer--footer">
+                <div class="container_redes-footer">
+                    <a href="https://www.linkedin.com/in/yolanda-gij%C3%B3n-fern%C3%A1ndez-a09b69191/" target="_blank">
+                        <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Holly03" target="_blank">
+                        <img src="./assets/images/icon-github.png" alt="GitHub">
+                    </a>
+                </div>
+
+                <div class="container_text--footer">
+                    <span>Copyright © | Yolanda Gijón</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
